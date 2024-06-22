@@ -1,0 +1,12 @@
+CompileFlags:                     
+  Add: [-nostdinc,
+        -I/usr/arm-none-eabi/STM32CubeF1/Drivers/CMSIS/Core/Include,
+        -I/usr/arm-none-eabi/STM32CubeF1/Drivers/CMSIS/Device/ST/STM32F1xx/Include,
+        -I/usr/arm-none-eabi/include,
+        -I/usr/arm-none-eabi/include/c++/12.2.1,
+        -I/usr/arm-none-eabi/include/c++/12.2.1/arm-none-eabi,
+        -I/usr/lib/gcc/arm-none-eabi/13.2.0/include,
+        -D__SOFTFP__=1,
+        --target=thumbv7m-none-none-eabi,
+        -mcpu=cortex-m3, 
+        -DSTM32F103xB] 
